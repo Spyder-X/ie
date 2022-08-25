@@ -42,7 +42,7 @@ article .p {
     font: 0.8em monospace;
     /* position: static; */
     /* display: block; */
-    width: 100%;
+    width: 12.5%;
     /* height: 5ch; */
     /* display: grid; */
     /* place-content: center; */
@@ -76,17 +76,17 @@ article .p {
 }
 
 .g .p .icon {
-    width: 50%;
+    width: 80px;
     /* height: 80%; */
     background-color: white;
-    margin: 20px;
+    margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     ;
     /* border: 1px solid black; */
 }
-/* .g .p .btn{
-    width: 20%;
-} */
+.g .p .icon-adit{
+    width: 110px;
+}
 
 .g .p:hover img,
 .g .p img:hover {
@@ -107,10 +107,11 @@ article {
     width: 100%;
     height: 100%;
     text-align: center;
+    flex-wrap: wrap;
 }
 
-.g .select1 .adit {
-    width: 7%;
+.g .select .adit {
+    width: 100%;
 }
 
 .p .btn{
@@ -118,27 +119,24 @@ article {
     border : none; 
 }
 
-.select .p .s{
-    display: none;
-}
-
 @media only screen and (max-width: 600px) {
     .select {
         flex-wrap: wrap;
         justify-content: space-evenly;
-
     }
-
-    .g .select1 .adit {
-        width: 20%;
-    }
-
     .g .select .p {
         width: 25%;
     }
+    .g .select .adit {
+        width: 100%;
+    }
 
     .g .p .icon {
+        width: 45px;
         margin: 10px;
+    }
+    .g .p .icon-adit{
+        width: 65px;
     }
 }
 
@@ -161,9 +159,12 @@ body {
     display: flex;
     position: absolute;
     left: 50vw;
-    transform: translate(-50%, -50%);
+    transform: translate(-45%, -50%);
     justify-content: center;
-    top: 230%;
+    top: 72%;
+}
+.s{
+    display: none;
 }
 .select1 .wrapper{
     top: 72%;
@@ -266,7 +267,7 @@ body {
     width: 100%;
     background-color: #fff;
     border-radius: 8px;
-    padding: 50px 20px 50px 52px;
+    padding: 50px 20px 50px 80px;
     height: 20%;
 }
 
@@ -278,16 +279,13 @@ body {
 
 @media only screen and (max-width: 600px) {
     .wrapper{
-        top: 190%;
+        top: 150%;
         width: 100%;
         transform: translate(-55%, -50%);
     }
-    .select1 .wrapper{
-        top: 75%;
-    }
     .carousel__item-body{
         width: 200%;
-        padding: 20px 20px 20px 40px;
+        padding: 20px 20px 20px 60px;
         /* background-color: #000; */
     }
 }

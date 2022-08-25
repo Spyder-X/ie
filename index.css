@@ -430,8 +430,8 @@ aside p {
   #toggle:checked ~ .nav {
 	margin-bottom: 100px;
 	pointer-events: auto;
-	transform: translate(25vw, 50%);
-	background: rgba(245, 245, 245, 0.5);
+	transform: translate(20vw, 50%);
+	background: rgba(201, 201, 201, 0.5);
     backdrop-filter: blur(10px);
 	border-radius: 10px;
 	padding: 40px;
