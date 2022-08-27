@@ -51,7 +51,7 @@ body{
     width: 100vw;
   }
   .black-lives-matter p {
-    font-size: 130px;
+    font-size: 220%;
     /* font-size: 8rem; */
   }
   .title .text-bottom p{
@@ -130,8 +130,11 @@ body{
   background: rgba(245, 245, 245, 0.5);
   backdrop-filter: blur(10px);
   align-items: center;
-
   /* animation-delay: 6.5s; */
+}
+
+.header .logo img{
+	width: 15%;
 }
 
 .header .items  ul{
