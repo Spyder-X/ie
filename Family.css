@@ -159,9 +159,9 @@ body {
     display: flex;
     position: absolute;
     left: 50vw;
-    transform: translate(-45%, -50%);
+    transform: translate(-50%, -50%);
     justify-content: center;
-    top: 72%;
+    top: 172%;
 }
 .s{
     display: none;
